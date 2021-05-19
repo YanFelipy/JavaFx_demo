@@ -29,7 +29,7 @@ public class ViewController implements Initializable {
 	public void onComboBoxPersonAction() {
 		Person person = comboBoxPerson.getSelectionModel()
 				.getSelectedItem();
-		System.out.println(person)
+		System.out.println(person);
 	}
     @FXML
     public void onBtAllAction() {
